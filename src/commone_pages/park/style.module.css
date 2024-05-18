@@ -1,0 +1,42 @@
+.common_page_bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../img/shoppingmall1.png");
+  background-repeat: no-repeat;
+  opacity: 0.55;
+  background-size: cover;
+  margin-top: -50px;
+  height: 200px;
+  z-index: -1;
+}
+
+.common_page_bg-container span {
+  color: white;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.common_page_main {
+  display: flex;
+  flex-direction: column;
+}
+.news_page-allow {
+  width: 20px;
+  height: 40px;
+  z-index: 222;
+}
+@keyframes slideUp {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+.cont-cards {
+  animation: slideUp 1s ease-out;
+}  

@@ -1,0 +1,19 @@
+.news_page-bg {
+  position: absolute;
+  width: 100%;
+  z-index: -2;
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.logo_p {
+  animation: slideUp 1s ease-out;
+}

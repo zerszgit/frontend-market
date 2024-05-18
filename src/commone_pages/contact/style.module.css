@@ -1,0 +1,99 @@
+.news_page-bg {
+    position: absolute; /* Изменено на абсолютное позиционирование */
+    width: 100%;
+    z-index: -2;
+  }
+  
+  .common_page_bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../img/shoppingmall1.png");
+    background-repeat: no-repeat;
+    opacity: 0.55;
+    background-size: cover;
+    margin-top: -50px;
+    height: 200px;
+    z-index: -1;
+  }
+  
+  .common_page_bg-container span {
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  
+  .common_page_main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .common_page_bg-blue-layer {
+    position: absolute; /* Изменено на абсолютное позиционирование */
+    width: 100%;
+    height: 100%; /* Изменено на 100% */
+    background: #476275;
+    opacity: 0.6;
+    z-index: -1; /* Поднято на уровень выше */
+  }
+  
+  .news_page-allow {
+    width: 20px;
+    height: 40px;
+    z-index: 222;
+  }
+  
+  .news_container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 80px;
+  }
+  
+  .news_container-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    width: 100%;
+  }
+  
+  .news_container-item-block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+    padding: 0 20px;
+    gap: 20px;
+  }
+  
+  .news_container-item-title {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .news_container-item-img {
+    width: 157px;
+    height: 157px;
+    border-radius: 75%;
+  }
+  
+  .black_btn{
+    background-color: #242424;
+    width: 351px;
+    height: 80px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 1400px) {
+    .news_container-item {
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+    }
+  }
+  

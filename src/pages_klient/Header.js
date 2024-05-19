@@ -11,7 +11,7 @@ const Header = () => {
             alt="Logo"
             className="w-44 cursor-pointer mr-14" onClick={() => navigate('/Home')} />
             
-            <img src="https://firebasestorage.googleapis.com/v0/b/swiftreplus.appspot.com/o/Compan_data%2Fcompany_logo%2Fcvtalog_button.svg?alt=media&token=20feac49-fcb1-4550-aa59-d7db9c08adac" alt="Catalog" className="w-36 cursor-pointer mx-10" onClick={() => window.location.href='catalog.html'} />
+            <img src="https://firebasestorage.googleapis.com/v0/b/swiftreplus.appspot.com/o/Compan_data%2Fcompany_logo%2Fcvtalog_button.svg?alt=media&token=20feac49-fcb1-4550-aa59-d7db9c08adac" alt="Catalog" className="w-36 cursor-pointer mx-10" onClick={() => navigate('/Catalog')} />
             <div className=" flex felx-row border-2 border-gray">
                 <input className=" w-[519px]" type="text" placeholder="Поиск товара" />
                 <img src="https://firebasestorage.googleapis.com/v0/b/swiftreplus.appspot.com/o/Compan_data%2Fcompany_logo%2Fserch_header.svg?alt=media&token=1868782a-f953-4c8d-b697-876760d8ab73" alt="Search" className="cursor-pointer" />

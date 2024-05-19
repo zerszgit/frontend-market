@@ -1,3 +1,107 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link {
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px 20px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(168, 168, 168, 0.44);
+    box-shadow: #a1a1a1 0px 0px 5px;
+    margin-bottom: 40px;
+}
+
+.card p {
+    color: #7c7c7c;
+    font-weight: 300;
+    padding: 8px 0;
+}
+
+.card input {
+    font-size: 12px;
+    outline: none;
+    border-radius: 4px;
+    padding: 4px;
+    border: 2px solid rgba(168, 168, 168, 0.44);
+}
+
+.card img {
+    max-width: 180px;
+    width: 100%;
+}
+
+.numberCard input, .numberCard {
+    width: 100%;
+}
+
+.numberCard {
+    margin: 20px 0 0 0;
+}
+
+.date input {
+    max-width: 42px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.borderr {
+    border-left: 1px solid #cdcdcd;
+}
+
+.catalog-left {
+    border-right: 1px solid #d8d8d8;
+}
+
+.catalog-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.catalog-link {
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 7px 20px 7px 50px;
+    width: 100%;
+}
+
+
+.cardss {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.cardss img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.cardsss img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

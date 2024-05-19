@@ -7,7 +7,7 @@ function PersonalArea() {
     <Header/>
       <div className='flex flex-row ' >
         <div className=" w-[25%] h-[650px] border-gray border-r-2">
-          <div className="a1">Избранное</div>
+          <div className="a1" style={{marginTop: "50px", marginLeft: "50px", fontWeight: "bold", fontSize: "25px"}}>Избранное</div>
         </div>
         <div>
           <div className=' flex mt-[20px] px-16 '>

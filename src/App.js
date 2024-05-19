@@ -28,12 +28,18 @@ import Contact from "./commone_pages/contact/Contact";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Park from "./commone_pages/park/Park";
+import Purchases from "./pages_klient/Purchases";
 
 const App = () => {
   const router = createBrowserRouter([
     {
       path: "/",
       element: <HomeSite />,
+      children: [],
+    },
+    {
+      path: "/Purchases",
+      element: <Purchases />,
       children: [],
     },
     {
